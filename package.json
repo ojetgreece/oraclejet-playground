@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
   "scripts": {
+    "lint": "eslint ./src/js/main.js",
     "precommit": "pretty-quick --staged"
   },
   "dependencies": {
     "@oracle/oraclejet": "~5.1.0"
   },
   "devDependencies": {
+    "@oracle/eslint-config-oraclejet": "^5.1.0",
     "@oracle/grunt-oraclejet": "~5.1.0",
     "@oracle/oraclejet-tooling": "~5.1.0",
+    "eslint": "~3.19.0",
     "grunt": "^1.0.1",
     "husky": "^0.14.3",
     "load-grunt-config": "0.19.2",

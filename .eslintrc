@@ -1,0 +1,6 @@
+{
+  "extends": "@oracle/eslint-config-oraclejet/es5",
+  "globals": {
+    "requirejs": "false"
+  }
+}
