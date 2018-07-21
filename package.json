@@ -2,6 +2,9 @@
   "name": "ES6Boilerplate",
   "version": "1.0.0",
   "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
+  "scripts": {
+    "precommit": "pretty-quick --staged"
+  },
   "dependencies": {
     "@oracle/oraclejet": "~5.1.0"
   },
@@ -9,9 +12,12 @@
     "@oracle/grunt-oraclejet": "~5.1.0",
     "@oracle/oraclejet-tooling": "~5.1.0",
     "grunt": "^1.0.1",
+    "husky": "^0.14.3",
     "load-grunt-config": "0.19.2",
+    "prettier": "1.13.7",
+    "pretty-quick": "^1.6.0",
     "qunit": "^2.4.1",
-    "qunit-reporter-junit": "^1.1.1",
+    "qunit-reporter-junit": "^1.1.1"
   },
   "engines": {
     "node": ">=0.10.0"
