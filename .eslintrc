@@ -1,5 +1,5 @@
 {
-  "extends": "@oracle/eslint-config-oraclejet/es5",
+  "extends": ["prettier", "@oracle/eslint-config-oraclejet/es5"],
   "globals": {
     "requirejs": "false"
   }
